@@ -1,0 +1,19 @@
+{"ts": 1790255804.1495872, "node": "mgr2", "event": "node_started", "role": "manager", "cpu": 100, "mem": 512}
+{"ts": 1790255804.670813, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "fdd20486", "transit": 0.019054889678955078}
+{"ts": 1790255805.1576416, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "c34276d2", "transit": 0.006435394287109375}
+{"ts": 1790255805.1736424, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "60bd8feb", "transit": 0.008757352828979492}
+{"ts": 1790255805.6839926, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "18a6b59a", "transit": 0.010295867919921875}
+{"ts": 1790255806.1673331, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "53113f4c", "transit": 0.009099960327148438}
+{"ts": 1790255806.201783, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "f06f07c0", "transit": 0.014279842376708984}
+{"ts": 1790255806.7123218, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "9767cdec", "transit": 0.010102033615112305}
+{"ts": 1790255807.1784666, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "96fff402", "transit": 0.012700080871582031}
+{"ts": 1790255807.2222052, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "18d14924", "transit": 0.010821104049682617}
+{"ts": 1790255807.7313445, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "afe7020e", "transit": 0.009645700454711914}
+{"ts": 1790255808.194215, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "091cd66c", "transit": 0.012365579605102539}
+{"ts": 1790255808.2472198, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "b7198d13", "transit": 0.01634812355041504}
+{"ts": 1790255808.7566686, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "1c78a76b", "transit": 0.009866952896118164}
+{"ts": 1790255809.2022364, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "6ec143a9", "transit": 0.008472442626953125}
+{"ts": 1790255809.2647722, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "2e2367d9", "transit": 0.011059761047363281}
+{"ts": 1790255809.3870244, "node": "mgr2", "event": "recv", "type": "STATS", "src": "client", "id": "408e66dc", "transit": 0.0021648406982421875}
+{"ts": 1790255809.40556, "node": "mgr2", "event": "recv", "type": "SHUTDOWN", "src": "client", "id": "a4c695d4", "transit": 0.0050182342529296875}
+{"ts": 1790255809.4056137, "node": "mgr2", "event": "shutdown"}

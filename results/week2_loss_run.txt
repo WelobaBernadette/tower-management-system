@@ -1,0 +1,2 @@
+nohup: ignoring input
+{'placement': 'round_robin', 'rate': 60, 'jobs': 200, 'completed': 172, 'refused': 0, 'lost': 28, 'throughput_jobs_s': 46.35, 'latency_mean_ms': 83.1, 'latency_p95_ms': 99.3, 'jitter_ms': 8.0, 'packet_loss_pct': 4.97, 'cpu_mean_pct': 5.9, 'mem_max_mb': 23.8, 'jobs_per_node': {'mgr1': 35, 'mgr2': 36, 'site1': 37, 'site2': 36, 'site3': 37}}

@@ -1,0 +1,7 @@
+{"ts": 1790319178.4145646, "node": "client", "event": "node_started", "role": "client", "cpu": 100, "mem": 512}
+{"ts": 1790319178.9485397, "node": "client", "event": "recv", "type": "JOB_DONE", "src": "mgr2", "id": "05d936a2", "transit": 0.04699301719665527}
+{"ts": 1790319178.9487798, "node": "client", "event": "recv", "type": "JOB_DONE", "src": "site1", "id": "48b28737", "transit": 0.01393270492553711}
+{"ts": 1790319178.9564886, "node": "client", "event": "recv", "type": "JOB_DONE", "src": "mgr1", "id": "92084bed", "transit": 0.05580925941467285}
+{"ts": 1790319179.0294805, "node": "client", "event": "recv", "type": "JOB_DONE", "src": "site3", "id": "1e1084a8", "transit": 0.01237797737121582}
+{"ts": 1790319179.03087, "node": "client", "event": "recv", "type": "JOB_DONE", "src": "site2", "id": "ef4adafd", "transit": 0.012891769409179688}
+{"ts": 1790319179.798952, "node": "client", "event": "recv", "type": "JOB_DONE", "src": "mgr1", "id": "e409aef7", "transit": 0.013187170028686523}

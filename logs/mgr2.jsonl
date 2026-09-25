@@ -1,0 +1,10 @@
+{"ts": 1790319178.4116633, "node": "mgr2", "event": "node_started", "role": "manager", "cpu": 100, "mem": 512}
+{"ts": 1790319178.73243, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "ad4f6311", "transit": 0.050009727478027344}
+{"ts": 1790319178.7325802, "node": "mgr2", "event": "proc_created", "pid": 1, "name": "job", "cpu": 10, "mem": 32, "burst": 0.1}
+{"ts": 1790319178.9014475, "node": "mgr2", "event": "proc_terminated", "pid": 1, "name": "job", "waited": 0.0010023117065429688, "total": 0.16887903213500977}
+{"ts": 1790319179.0829086, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "a5a7fd2c", "transit": 0.014931201934814453}
+{"ts": 1790319179.5801063, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "aa77e251", "transit": 0.009793758392333984}
+{"ts": 1790319179.5993586, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "3758fb33", "transit": 0.01671433448791504}
+{"ts": 1790319180.1167288, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "e05a53e6", "transit": 0.013296842575073242}
+{"ts": 1790319180.3264089, "node": "mgr2", "event": "recv", "type": "SHUTDOWN", "src": "client", "id": "5d64216c", "transit": 0.009587287902832031}
+{"ts": 1790319180.3265405, "node": "mgr2", "event": "shutdown"}

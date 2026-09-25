@@ -1,0 +1,148 @@
+{"ts": 1790255855.3512855, "node": "mgr2", "event": "node_started", "role": "manager", "cpu": 100, "mem": 512}
+{"ts": 1790255855.876298, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "0cf0b79d", "transit": 0.026610374450683594}
+{"ts": 1790255856.3569362, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "78cbbaa2", "transit": 0.006482124328613281}
+{"ts": 1790255856.3809574, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "9ff83fb5", "transit": 0.006344795227050781}
+{"ts": 1790255856.562198, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "1391c951", "transit": 0.012505531311035156}
+{"ts": 1790255856.5622847, "node": "mgr2", "event": "proc_created", "pid": 1, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255856.6236694, "node": "mgr2", "event": "proc_terminated", "pid": 1, "name": "job", "waited": 0.0028710365295410156, "total": 0.06139063835144043}
+{"ts": 1790255856.6483188, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "0107e50a", "transit": 0.011592864990234375}
+{"ts": 1790255856.6484556, "node": "mgr2", "event": "proc_created", "pid": 2, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255856.7102733, "node": "mgr2", "event": "proc_terminated", "pid": 2, "name": "job", "waited": 0.0030515193939208984, "total": 0.061826467514038086}
+{"ts": 1790255856.747178, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "70bae7a6", "transit": 0.012658357620239258}
+{"ts": 1790255856.7472668, "node": "mgr2", "event": "proc_created", "pid": 3, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255856.8140833, "node": "mgr2", "event": "proc_terminated", "pid": 3, "name": "job", "waited": 0.0072209835052490234, "total": 0.06681632995605469}
+{"ts": 1790255856.898151, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "2a973015", "transit": 0.013754844665527344}
+{"ts": 1790255856.9231317, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "42fae813", "transit": 0.00769805908203125}
+{"ts": 1790255856.9232004, "node": "mgr2", "event": "proc_created", "pid": 4, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255856.9552217, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "a398dfb1", "transit": 0.0070705413818359375}
+{"ts": 1790255856.9552975, "node": "mgr2", "event": "proc_created", "pid": 5, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.0008886, "node": "mgr2", "event": "proc_terminated", "pid": 4, "name": "job", "waited": 0.0027861595153808594, "total": 0.07768845558166504}
+{"ts": 1790255857.0330381, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "6d16f734", "transit": 0.008950948715209961}
+{"ts": 1790255857.0331278, "node": "mgr2", "event": "proc_created", "pid": 6, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.0804813, "node": "mgr2", "event": "proc_terminated", "pid": 5, "name": "job", "waited": 0.012395620346069336, "total": 0.1251828670501709}
+{"ts": 1790255857.1082885, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "9976e382", "transit": 0.009337186813354492}
+{"ts": 1790255857.10838, "node": "mgr2", "event": "proc_created", "pid": 7, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.1212754, "node": "mgr2", "event": "proc_terminated", "pid": 6, "name": "job", "waited": 0.012246131896972656, "total": 0.08814859390258789}
+{"ts": 1790255857.2034953, "node": "mgr2", "event": "proc_terminated", "pid": 7, "name": "job", "waited": 0.03219032287597656, "total": 0.09511613845825195}
+{"ts": 1790255857.20888, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "fed0f94d", "transit": 0.008097171783447266}
+{"ts": 1790255857.2089772, "node": "mgr2", "event": "proc_created", "pid": 8, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.2819376, "node": "mgr2", "event": "proc_terminated", "pid": 8, "name": "job", "waited": 0.012663125991821289, "total": 0.07296395301818848}
+{"ts": 1790255857.3095536, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "cca4c0a3", "transit": 0.014405250549316406}
+{"ts": 1790255857.3096304, "node": "mgr2", "event": "proc_created", "pid": 9, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.3666594, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "88a0be81", "transit": 0.01007699966430664}
+{"ts": 1790255857.3765538, "node": "mgr2", "event": "proc_terminated", "pid": 9, "name": "job", "waited": 0.0029573440551757812, "total": 0.0669240951538086}
+{"ts": 1790255857.4125254, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "38e64275", "transit": 0.012478828430175781}
+{"ts": 1790255857.4424334, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "ac0607f8", "transit": 0.009444952011108398}
+{"ts": 1790255857.4426045, "node": "mgr2", "event": "proc_created", "pid": 10, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.4766326, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "1ce183f3", "transit": 0.010294914245605469}
+{"ts": 1790255857.47672, "node": "mgr2", "event": "proc_created", "pid": 11, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.5219448, "node": "mgr2", "event": "proc_terminated", "pid": 10, "name": "job", "waited": 0.0005335807800292969, "total": 0.07934308052062988}
+{"ts": 1790255857.551332, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "5c5c19b1", "transit": 0.007680654525756836}
+{"ts": 1790255857.5513942, "node": "mgr2", "event": "proc_created", "pid": 12, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.5856762, "node": "mgr2", "event": "proc_terminated", "pid": 11, "name": "job", "waited": 0.010936975479125977, "total": 0.10895752906799316}
+{"ts": 1790255857.629627, "node": "mgr2", "event": "proc_terminated", "pid": 12, "name": "job", "waited": 0.0002498626708984375, "total": 0.07823348045349121}
+{"ts": 1790255857.6522193, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "33340c91", "transit": 0.00960230827331543}
+{"ts": 1790255857.6523073, "node": "mgr2", "event": "proc_created", "pid": 13, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.7122695, "node": "mgr2", "event": "proc_terminated", "pid": 13, "name": "job", "waited": 0.0037381649017333984, "total": 0.059960126876831055}
+{"ts": 1790255857.740108, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "c6776521", "transit": 0.0076448917388916016}
+{"ts": 1790255857.7401931, "node": "mgr2", "event": "proc_created", "pid": 14, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.807523, "node": "mgr2", "event": "proc_terminated", "pid": 14, "name": "job", "waited": 0.0057926177978515625, "total": 0.06733107566833496}
+{"ts": 1790255857.85098, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "6af161c3", "transit": 0.02156352996826172}
+{"ts": 1790255857.85105, "node": "mgr2", "event": "proc_created", "pid": 15, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.910794, "node": "mgr2", "event": "proc_terminated", "pid": 15, "name": "job", "waited": 0.003145456314086914, "total": 0.05974411964416504}
+{"ts": 1790255857.925309, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "bb30fe52", "transit": 0.013362884521484375}
+{"ts": 1790255857.956976, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "6eabfab8", "transit": 0.01630687713623047}
+{"ts": 1790255857.9570422, "node": "mgr2", "event": "proc_created", "pid": 16, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255857.986498, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "01193bb1", "transit": 0.007716178894042969}
+{"ts": 1790255857.9865818, "node": "mgr2", "event": "proc_created", "pid": 17, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.03808, "node": "mgr2", "event": "proc_terminated", "pid": 16, "name": "job", "waited": 0.003507375717163086, "total": 0.08103513717651367}
+{"ts": 1790255858.0617118, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "8e314413", "transit": 0.00607609748840332}
+{"ts": 1790255858.0617762, "node": "mgr2", "event": "proc_created", "pid": 18, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.1062696, "node": "mgr2", "event": "proc_terminated", "pid": 17, "name": "job", "waited": 0.01750946044921875, "total": 0.1196901798248291}
+{"ts": 1790255858.1596959, "node": "mgr2", "event": "proc_terminated", "pid": 18, "name": "job", "waited": 0.010978460311889648, "total": 0.09791874885559082}
+{"ts": 1790255858.1630313, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "c54088ea", "transit": 0.00901484489440918}
+{"ts": 1790255858.1631005, "node": "mgr2", "event": "proc_created", "pid": 19, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.2291996, "node": "mgr2", "event": "proc_terminated", "pid": 19, "name": "job", "waited": 0.006427288055419922, "total": 0.06609940528869629}
+{"ts": 1790255858.2665424, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "cc382f75", "transit": 0.019997358322143555}
+{"ts": 1790255858.2666082, "node": "mgr2", "event": "proc_created", "pid": 20, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.3220901, "node": "mgr2", "event": "proc_terminated", "pid": 20, "name": "job", "waited": 0.0001971721649169922, "total": 0.05548214912414551}
+{"ts": 1790255858.3674827, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "b86a771e", "transit": 0.010222673416137695}
+{"ts": 1790255858.3676128, "node": "mgr2", "event": "proc_created", "pid": 21, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.3936212, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "0f88e0bc", "transit": 0.013781070709228516}
+{"ts": 1790255858.4349382, "node": "mgr2", "event": "proc_terminated", "pid": 21, "name": "job", "waited": 0.007948637008666992, "total": 0.06733584403991699}
+{"ts": 1790255858.4386563, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "731f17f4", "transit": 0.014826059341430664}
+{"ts": 1790255858.4891205, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "de67bea9", "transit": 0.012318134307861328}
+{"ts": 1790255858.4892066, "node": "mgr2", "event": "proc_created", "pid": 22, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.5492663, "node": "mgr2", "event": "proc_terminated", "pid": 22, "name": "job", "waited": 0.004271984100341797, "total": 0.060060977935791016}
+{"ts": 1790255858.5697405, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "4833d9f6", "transit": 0.00611424446105957}
+{"ts": 1790255858.5698626, "node": "mgr2", "event": "proc_created", "pid": 23, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.6320868, "node": "mgr2", "event": "proc_terminated", "pid": 23, "name": "job", "waited": 0.00026345252990722656, "total": 0.06222724914550781}
+{"ts": 1790255858.654276, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "f54ae810", "transit": 0.009343147277832031}
+{"ts": 1790255858.654359, "node": "mgr2", "event": "proc_created", "pid": 24, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.7087874, "node": "mgr2", "event": "proc_terminated", "pid": 24, "name": "job", "waited": 0.00030231475830078125, "total": 0.054428815841674805}
+{"ts": 1790255858.7518349, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "e8a75df6", "transit": 0.01032257080078125}
+{"ts": 1790255858.751926, "node": "mgr2", "event": "proc_created", "pid": 25, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.8125665, "node": "mgr2", "event": "proc_terminated", "pid": 25, "name": "job", "waited": 0.00026154518127441406, "total": 0.06064271926879883}
+{"ts": 1790255858.8412628, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "2f1e2808", "transit": 0.008819341659545898}
+{"ts": 1790255858.8413968, "node": "mgr2", "event": "proc_created", "pid": 26, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255858.9060466, "node": "mgr2", "event": "proc_terminated", "pid": 26, "name": "job", "waited": 0.003666400909423828, "total": 0.06465268135070801}
+{"ts": 1790255858.9532943, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "8932fd7e", "transit": 0.011510372161865234}
+{"ts": 1790255858.984547, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "9741e0d1", "transit": 0.009930610656738281}
+{"ts": 1790255858.9846377, "node": "mgr2", "event": "proc_created", "pid": 27, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.0386293, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "86247e44", "transit": 0.009488821029663086}
+{"ts": 1790255859.0387673, "node": "mgr2", "event": "proc_created", "pid": 28, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.0454252, "node": "mgr2", "event": "proc_terminated", "pid": 27, "name": "job", "waited": 0.003208160400390625, "total": 0.060788631439208984}
+{"ts": 1790255859.1016204, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "7ff15131", "transit": 0.010820388793945312}
+{"ts": 1790255859.101713, "node": "mgr2", "event": "proc_created", "pid": 29, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.111329, "node": "mgr2", "event": "proc_terminated", "pid": 28, "name": "job", "waited": 0.01611614227294922, "total": 0.07256317138671875}
+{"ts": 1790255859.171601, "node": "mgr2", "event": "proc_terminated", "pid": 29, "name": "job", "waited": 0.016849040985107422, "total": 0.06988644599914551}
+{"ts": 1790255859.1952078, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "7e69e42c", "transit": 0.011594772338867188}
+{"ts": 1790255859.1952963, "node": "mgr2", "event": "proc_created", "pid": 30, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.256214, "node": "mgr2", "event": "proc_terminated", "pid": 30, "name": "job", "waited": 0.008055925369262695, "total": 0.06091928482055664}
+{"ts": 1790255859.2821298, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "48193116", "transit": 0.011305570602416992}
+{"ts": 1790255859.2821949, "node": "mgr2", "event": "proc_created", "pid": 31, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.337732, "node": "mgr2", "event": "proc_terminated", "pid": 31, "name": "job", "waited": 0.0002505779266357422, "total": 0.05553698539733887}
+{"ts": 1790255859.3701763, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "c758381a", "transit": 0.010893583297729492}
+{"ts": 1790255859.3702416, "node": "mgr2", "event": "proc_created", "pid": 32, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.415763, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "29fbad30", "transit": 0.014951705932617188}
+{"ts": 1790255859.4303582, "node": "mgr2", "event": "proc_terminated", "pid": 32, "name": "job", "waited": 0.0003428459167480469, "total": 0.060117244720458984}
+{"ts": 1790255859.458887, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "904e5e80", "transit": 0.00765228271484375}
+{"ts": 1790255859.499316, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "1f18132d", "transit": 0.008526325225830078}
+{"ts": 1790255859.4993832, "node": "mgr2", "event": "proc_created", "pid": 33, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.5365593, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "79a72f5d", "transit": 0.010714054107666016}
+{"ts": 1790255859.5366457, "node": "mgr2", "event": "proc_created", "pid": 34, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.5756104, "node": "mgr2", "event": "proc_terminated", "pid": 33, "name": "job", "waited": 0.0026018619537353516, "total": 0.07622480392456055}
+{"ts": 1790255859.60548, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "e92e0d4f", "transit": 0.007657766342163086}
+{"ts": 1790255859.605553, "node": "mgr2", "event": "proc_created", "pid": 35, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.6454058, "node": "mgr2", "event": "proc_terminated", "pid": 34, "name": "job", "waited": 0.007810115814208984, "total": 0.10876107215881348}
+{"ts": 1790255859.683028, "node": "mgr2", "event": "proc_terminated", "pid": 35, "name": "job", "waited": 0.0044863224029541016, "total": 0.07747578620910645}
+{"ts": 1790255859.7004507, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "272971c9", "transit": 0.0071256160736083984}
+{"ts": 1790255859.700519, "node": "mgr2", "event": "proc_created", "pid": 36, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.7643588, "node": "mgr2", "event": "proc_terminated", "pid": 36, "name": "job", "waited": 0.004097700119018555, "total": 0.06383824348449707}
+{"ts": 1790255859.7925274, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "e5ef05c8", "transit": 0.008132219314575195}
+{"ts": 1790255859.792618, "node": "mgr2", "event": "proc_created", "pid": 37, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.8529208, "node": "mgr2", "event": "proc_terminated", "pid": 37, "name": "job", "waited": 0.003409862518310547, "total": 0.060304880142211914}
+{"ts": 1790255859.8843303, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "cde3e87b", "transit": 0.006327152252197266}
+{"ts": 1790255859.8843951, "node": "mgr2", "event": "proc_created", "pid": 38, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255859.9403627, "node": "mgr2", "event": "proc_terminated", "pid": 38, "name": "job", "waited": 0.003194093704223633, "total": 0.05596756935119629}
+{"ts": 1790255859.9693487, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "6c6ae43a", "transit": 0.00839376449584961}
+{"ts": 1790255860.0116413, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "fcc4e6ea", "transit": 0.00930643081665039}
+{"ts": 1790255860.0117314, "node": "mgr2", "event": "proc_created", "pid": 39, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255860.0452795, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "77fccd2c", "transit": 0.008655786514282227}
+{"ts": 1790255860.045345, "node": "mgr2", "event": "proc_created", "pid": 40, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255860.092057, "node": "mgr2", "event": "proc_terminated", "pid": 39, "name": "job", "waited": 0.0017611980438232422, "total": 0.08032703399658203}
+{"ts": 1790255860.0943294, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "aed1cd86", "transit": 0.006220817565917969}
+{"ts": 1790255860.0943844, "node": "mgr2", "event": "proc_created", "pid": 41, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255860.1559954, "node": "mgr2", "event": "proc_terminated", "pid": 40, "name": "job", "waited": 0.013959407806396484, "total": 0.11065030097961426}
+{"ts": 1790255860.1833866, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "fdf2244f", "transit": 0.008348226547241211}
+{"ts": 1790255860.1834528, "node": "mgr2", "event": "proc_created", "pid": 42, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255860.1949093, "node": "mgr2", "event": "proc_terminated", "pid": 41, "name": "job", "waited": 0.02926468849182129, "total": 0.10052680969238281}
+{"ts": 1790255860.25474, "node": "mgr2", "event": "proc_terminated", "pid": 42, "name": "job", "waited": 0.02014613151550293, "total": 0.07128787040710449}
+{"ts": 1790255860.272794, "node": "mgr2", "event": "recv", "type": "SPAWN", "src": "core", "id": "8f8495f3", "transit": 0.009688138961791992}
+{"ts": 1790255860.272867, "node": "mgr2", "event": "proc_created", "pid": 43, "name": "job", "cpu": 10, "mem": 32, "burst": 0.05}
+{"ts": 1790255860.3274837, "node": "mgr2", "event": "proc_terminated", "pid": 43, "name": "job", "waited": 0.0005800724029541016, "total": 0.05461740493774414}
+{"ts": 1790255860.4010596, "node": "mgr2", "event": "recv", "type": "STATS", "src": "client", "id": "d4a53acc", "transit": 0.0011093616485595703}
+{"ts": 1790255860.414849, "node": "mgr2", "event": "recv", "type": "SHUTDOWN", "src": "client", "id": "5e13ff7e", "transit": 0.0013451576232910156}
+{"ts": 1790255860.4149055, "node": "mgr2", "event": "shutdown"}
+{"ts": 1790255860.4294431, "node": "mgr2", "event": "recv", "type": "SENSOR", "src": "site3", "id": "f088d5f5", "transit": 0.010295391082763672}
+{"ts": 1790255860.4759934, "node": "mgr2", "event": "recv", "type": "HEARTBEAT", "src": "site3", "id": "7bc59aa8", "transit": 0.005635261535644531}

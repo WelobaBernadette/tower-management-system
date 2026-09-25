@@ -1,0 +1,17 @@
+{"ts": 1790319178.3070877, "node": "mgr1", "event": "node_started", "role": "manager", "cpu": 100, "mem": 512}
+{"ts": 1790319178.7237484, "node": "mgr1", "event": "recv", "type": "SPAWN", "src": "core", "id": "dedbfc34", "transit": 0.053464651107788086}
+{"ts": 1790319178.7238944, "node": "mgr1", "event": "proc_created", "pid": 1, "name": "job", "cpu": 10, "mem": 32, "burst": 0.1}
+{"ts": 1790319178.9005518, "node": "mgr1", "event": "proc_terminated", "pid": 1, "name": "job", "waited": 0.0008900165557861328, "total": 0.17666912078857422}
+{"ts": 1790319178.9542558, "node": "mgr1", "event": "recv", "type": "HEARTBEAT", "src": "site1", "id": "5ac0ba62", "transit": 0.019611835479736328}
+{"ts": 1790319179.0186408, "node": "mgr1", "event": "recv", "type": "HEARTBEAT", "src": "site2", "id": "2819d89c", "transit": 0.02794504165649414}
+{"ts": 1790319179.4236345, "node": "mgr1", "event": "recv", "type": "SENSOR", "src": "site1", "id": "7339c9d6", "transit": 0.008893013000488281}
+{"ts": 1790319179.4686317, "node": "mgr1", "event": "recv", "type": "HEARTBEAT", "src": "site1", "id": "e9b76203", "transit": 0.01894378662109375}
+{"ts": 1790319179.4909425, "node": "mgr1", "event": "recv", "type": "SENSOR", "src": "site2", "id": "b588fa34", "transit": 0.011185169219970703}
+{"ts": 1790319179.529092, "node": "mgr1", "event": "recv", "type": "HEARTBEAT", "src": "site2", "id": "d61c968b", "transit": 0.006650209426879883}
+{"ts": 1790319179.7855666, "node": "mgr1", "event": "recv", "type": "SPAWN", "src": "core", "id": "880ed6da", "transit": 0.010333776473999023}
+{"ts": 1790319179.7857046, "node": "mgr1", "event": "proc_refused", "pid": 2, "name": "job", "cpu": 10, "mem": 9999, "free": {"cpu": 100, "mem": 512}}
+{"ts": 1790319179.985717, "node": "mgr1", "event": "recv", "type": "HEARTBEAT", "src": "site1", "id": "e31e6aae", "transit": 0.011498451232910156}
+{"ts": 1790319180.0379312, "node": "mgr1", "event": "recv", "type": "HEARTBEAT", "src": "site2", "id": "c1c924c8", "transit": 0.008525848388671875}
+{"ts": 1790319180.313126, "node": "mgr1", "event": "recv", "type": "STATS", "src": "client", "id": "e642ac5f", "transit": 0.030109882354736328}
+{"ts": 1790319180.336289, "node": "mgr1", "event": "recv", "type": "SHUTDOWN", "src": "client", "id": "1e6aad9a", "transit": 0.020607471466064453}
+{"ts": 1790319180.3363836, "node": "mgr1", "event": "shutdown"}

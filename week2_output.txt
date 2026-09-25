@@ -1,0 +1,11 @@
+nohup: ignoring input
+first 20 {'throughput_jobs_s': 16.63, 'latency_mean_ms': 525.1, 'latency_p95_ms': 610.7, 'jitter_ms': 127.2, 'refused': 25, 'lost': 0, 'cpu_mean_pct': 4.9}
+first 60 {'throughput_jobs_s': 16.29, 'latency_mean_ms': 593.8, 'latency_p95_ms': 639.5, 'jitter_ms': 90.0, 'refused': 136, 'lost': 0, 'cpu_mean_pct': 5.5}
+first 100 {'throughput_jobs_s': 15.91, 'latency_mean_ms': 608.3, 'latency_p95_ms': 672.1, 'jitter_ms': 96.0, 'refused': 158, 'lost': 0, 'cpu_mean_pct': 5.6}
+round_robin 20 {'throughput_jobs_s': 19.59, 'latency_mean_ms': 78.1, 'latency_p95_ms': 83.6, 'jitter_ms': 3.4, 'refused': 0, 'lost': 0, 'cpu_mean_pct': 4.9}
+round_robin 60 {'throughput_jobs_s': 54.87, 'latency_mean_ms': 79.3, 'latency_p95_ms': 87.0, 'jitter_ms': 3.9, 'refused': 0, 'lost': 0, 'cpu_mean_pct': 4.8}
+round_robin 100 {'throughput_jobs_s': 74.84, 'latency_mean_ms': 296.5, 'latency_p95_ms': 472.7, 'jitter_ms': 118.1, 'refused': 0, 'lost': 0, 'cpu_mean_pct': 5.0}
+least_loaded 20 {'throughput_jobs_s': 19.42, 'latency_mean_ms': 83.7, 'latency_p95_ms': 99.1, 'jitter_ms': 8.1, 'refused': 0, 'lost': 0, 'cpu_mean_pct': 5.1}
+least_loaded 60 {'throughput_jobs_s': 52.13, 'latency_mean_ms': 103.4, 'latency_p95_ms': 160.1, 'jitter_ms': 24.8, 'refused': 0, 'lost': 0, 'cpu_mean_pct': 5.3}
+least_loaded 100 {'throughput_jobs_s': 73.78, 'latency_mean_ms': 323.3, 'latency_p95_ms': 523.2, 'jitter_ms': 139.4, 'refused': 0, 'lost': 0, 'cpu_mean_pct': 4.8}
+saved results/week2_results.csv

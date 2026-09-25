@@ -1,0 +1,6 @@
+{"ts": 1790255811.0801418, "node": "site2", "event": "service_started", "pid": 1, "name": "sensor"}
+{"ts": 1790255811.0802388, "node": "site2", "event": "service_started", "pid": 2, "name": "heartbeat"}
+{"ts": 1790255811.0802639, "node": "site2", "event": "node_started", "role": "site", "cpu": 100, "mem": 512}
+{"ts": 1790255814.968837, "node": "site2", "event": "recv", "type": "STATS", "src": "client", "id": "c3585d1c", "transit": 0.004779338836669922}
+{"ts": 1790255814.9896214, "node": "site2", "event": "recv", "type": "SHUTDOWN", "src": "client", "id": "88ba85dc", "transit": 0.0012171268463134766}
+{"ts": 1790255814.9896734, "node": "site2", "event": "shutdown"}

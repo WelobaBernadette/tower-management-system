@@ -1,0 +1,537 @@
+{"ts": 1790263538.595183, "node": "core", "event": "node_started", "role": "core", "cpu": 100, "mem": 512}
+{"ts": 1790263538.602232, "node": "core", "event": "recv", "type": "REGISTER", "src": "site2", "id": "604e08d4", "transit": 0.002438068389892578}
+{"ts": 1790263538.6022968, "node": "core", "event": "registered", "who": "site2"}
+{"ts": 1790263538.6562424, "node": "core", "event": "recv", "type": "REGISTER", "src": "client", "id": "d8303a0e", "transit": 0.0016150474548339844}
+{"ts": 1790263538.6563053, "node": "core", "event": "registered", "who": "client"}
+{"ts": 1790263538.6582022, "node": "core", "event": "recv", "type": "REGISTRY", "src": "client", "id": "4c0f7c6a", "transit": 0.0011718273162841797}
+{"ts": 1790263538.6615071, "node": "core", "event": "recv", "type": "REGISTER", "src": "site1", "id": "637ab91a", "transit": 0.0016739368438720703}
+{"ts": 1790263538.6615684, "node": "core", "event": "registered", "who": "site1"}
+{"ts": 1790263538.6909964, "node": "core", "event": "recv", "type": "REGISTER", "src": "site3", "id": "017de5eb", "transit": 0.0020112991333007812}
+{"ts": 1790263538.6910598, "node": "core", "event": "registered", "who": "site3"}
+{"ts": 1790263538.6943314, "node": "core", "event": "recv", "type": "REGISTER", "src": "mgr1", "id": "fba643f3", "transit": 0.0015690326690673828}
+{"ts": 1790263538.6943874, "node": "core", "event": "registered", "who": "mgr1"}
+{"ts": 1790263538.698664, "node": "core", "event": "recv", "type": "REGISTER", "src": "mgr2", "id": "3bd0d6d2", "transit": 0.0015943050384521484}
+{"ts": 1790263538.698723, "node": "core", "event": "registered", "who": "mgr2"}
+{"ts": 1790263538.8608072, "node": "core", "event": "recv", "type": "REGISTRY", "src": "client", "id": "6c835c85", "transit": 0.0013332366943359375}
+{"ts": 1790263539.1159399, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "43442502", "transit": 0.011759757995605469}
+{"ts": 1790263539.1708677, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "719fe3fe", "transit": 0.007794618606567383}
+{"ts": 1790263539.2004066, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "799ee160", "transit": 0.007318019866943359}
+{"ts": 1790263539.2082753, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "0e35f3c2", "transit": 0.012207984924316406}
+{"ts": 1790263539.2113512, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "c26530ea", "transit": 0.00870656967163086}
+{"ts": 1790263539.6261816, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "94c9c1ae", "transit": 0.00887608528137207}
+{"ts": 1790263539.6791713, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "65a5d20c", "transit": 0.008382797241210938}
+{"ts": 1790263539.7176268, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "1ccfc173", "transit": 0.015303850173950195}
+{"ts": 1790263539.7183645, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "76329098", "transit": 0.007519245147705078}
+{"ts": 1790263539.7276757, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "ea5a5071", "transit": 0.015109777450561523}
+{"ts": 1790263539.8685315, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "af1518c5", "transit": 0.006993770599365234}
+{"ts": 1790263539.868688, "node": "core", "event": "placed", "job": "j0", "target": "mgr1"}
+{"ts": 1790263539.8909793, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "bdc0a8fa", "transit": 0.00965571403503418}
+{"ts": 1790263539.8911624, "node": "core", "event": "placed", "job": "j1", "target": "mgr2"}
+{"ts": 1790263539.9121943, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "2a18a374", "transit": 0.011429071426391602}
+{"ts": 1790263539.9123058, "node": "core", "event": "placed", "job": "j2", "target": "site1"}
+{"ts": 1790263539.9315898, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "5300d98c", "transit": 0.00992441177368164}
+{"ts": 1790263539.9317143, "node": "core", "event": "placed", "job": "j3", "target": "site2"}
+{"ts": 1790263539.9521472, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "4d52d602", "transit": 0.013364553451538086}
+{"ts": 1790263539.9522755, "node": "core", "event": "placed", "job": "j4", "target": "site3"}
+{"ts": 1790263539.9677825, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "0b1a0ce0", "transit": 0.010081052780151367}
+{"ts": 1790263539.9678795, "node": "core", "event": "placed", "job": "j5", "target": "mgr1"}
+{"ts": 1790263539.9833467, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7e99224b", "transit": 0.008702278137207031}
+{"ts": 1790263539.9834473, "node": "core", "event": "placed", "job": "j6", "target": "mgr2"}
+{"ts": 1790263540.0006585, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "55c3f390", "transit": 0.008489370346069336}
+{"ts": 1790263540.0007694, "node": "core", "event": "placed", "job": "j7", "target": "site1"}
+{"ts": 1790263540.0245361, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "879cd8db", "transit": 0.010745763778686523}
+{"ts": 1790263540.0246432, "node": "core", "event": "placed", "job": "j8", "target": "site2"}
+{"ts": 1790263540.040417, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "61eb1002", "transit": 0.008775711059570312}
+{"ts": 1790263540.0405679, "node": "core", "event": "placed", "job": "j9", "target": "site3"}
+{"ts": 1790263540.0632212, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "de663c17", "transit": 0.013756513595581055}
+{"ts": 1790263540.0633168, "node": "core", "event": "placed", "job": "j10", "target": "mgr1"}
+{"ts": 1790263540.0762875, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "36c72862", "transit": 0.009598016738891602}
+{"ts": 1790263540.0763907, "node": "core", "event": "placed", "job": "j11", "target": "mgr2"}
+{"ts": 1790263540.0959373, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "801f1756", "transit": 0.008602142333984375}
+{"ts": 1790263540.0960321, "node": "core", "event": "placed", "job": "j12", "target": "site1"}
+{"ts": 1790263540.115872, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "85134c77", "transit": 0.008653879165649414}
+{"ts": 1790263540.1159792, "node": "core", "event": "placed", "job": "j13", "target": "site2"}
+{"ts": 1790263540.1361365, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "9bd79ecd", "transit": 0.012134552001953125}
+{"ts": 1790263540.1363018, "node": "core", "event": "placed", "job": "j14", "target": "site3"}
+{"ts": 1790263540.1400263, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "19dec5d2", "transit": 0.01460886001586914}
+{"ts": 1790263540.1519678, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "5faabb08", "transit": 0.010955810546875}
+{"ts": 1790263540.1520748, "node": "core", "event": "placed", "job": "j15", "target": "mgr1"}
+{"ts": 1790263540.168149, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "5770afdb", "transit": 0.009272336959838867}
+{"ts": 1790263540.1682525, "node": "core", "event": "placed", "job": "j16", "target": "mgr2"}
+{"ts": 1790263540.1895444, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "0a176bc9", "transit": 0.01251220703125}
+{"ts": 1790263540.1896484, "node": "core", "event": "placed", "job": "j17", "target": "site1"}
+{"ts": 1790263540.1903973, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "2fb932cf", "transit": 0.010790109634399414}
+{"ts": 1790263540.2072058, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "42229713", "transit": 0.01294851303100586}
+{"ts": 1790263540.207306, "node": "core", "event": "placed", "job": "j18", "target": "site2"}
+{"ts": 1790263540.2217488, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "27517acd", "transit": 0.00946187973022461}
+{"ts": 1790263540.2218535, "node": "core", "event": "placed", "job": "j19", "target": "site3"}
+{"ts": 1790263540.231158, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "a648161b", "transit": 0.008650064468383789}
+{"ts": 1790263540.2380173, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "13049b13", "transit": 0.017449617385864258}
+{"ts": 1790263540.2432702, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6bc3e2ff", "transit": 0.007733345031738281}
+{"ts": 1790263540.243373, "node": "core", "event": "placed", "job": "j20", "target": "mgr1"}
+{"ts": 1790263540.2701826, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c8db9355", "transit": 0.012783050537109375}
+{"ts": 1790263540.2702658, "node": "core", "event": "placed", "job": "j21", "target": "mgr2"}
+{"ts": 1790263540.2959528, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "dfab2d17", "transit": 0.010327816009521484}
+{"ts": 1790263540.2960238, "node": "core", "event": "placed", "job": "j22", "target": "site1"}
+{"ts": 1790263540.3175077, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f685d1a2", "transit": 0.011996269226074219}
+{"ts": 1790263540.317619, "node": "core", "event": "placed", "job": "j23", "target": "site2"}
+{"ts": 1790263540.3397596, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "3f6b016f", "transit": 0.0067021846771240234}
+{"ts": 1790263540.3398378, "node": "core", "event": "placed", "job": "j24", "target": "site3"}
+{"ts": 1790263540.3641443, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "94fd0390", "transit": 0.011166572570800781}
+{"ts": 1790263540.3642457, "node": "core", "event": "placed", "job": "j25", "target": "mgr1"}
+{"ts": 1790263540.382138, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8251fb42", "transit": 0.010929346084594727}
+{"ts": 1790263540.3822093, "node": "core", "event": "placed", "job": "j26", "target": "mgr2"}
+{"ts": 1790263540.4005861, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "ac27081b", "transit": 0.008735418319702148}
+{"ts": 1790263540.400665, "node": "core", "event": "placed", "job": "j27", "target": "site1"}
+{"ts": 1790263540.415332, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d1c887cf", "transit": 0.005890846252441406}
+{"ts": 1790263540.4154122, "node": "core", "event": "placed", "job": "j28", "target": "site2"}
+{"ts": 1790263540.4347038, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b89e3dfb", "transit": 0.006841897964477539}
+{"ts": 1790263540.4348075, "node": "core", "event": "placed", "job": "j29", "target": "site3"}
+{"ts": 1790263540.4565108, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "95eee2d7", "transit": 0.009440898895263672}
+{"ts": 1790263540.456635, "node": "core", "event": "placed", "job": "j30", "target": "mgr1"}
+{"ts": 1790263540.478916, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "0e83da82", "transit": 0.011275053024291992}
+{"ts": 1790263540.4789882, "node": "core", "event": "placed", "job": "j31", "target": "mgr2"}
+{"ts": 1790263540.4958966, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "aaaef705", "transit": 0.008224725723266602}
+{"ts": 1790263540.496003, "node": "core", "event": "placed", "job": "j32", "target": "site1"}
+{"ts": 1790263540.5275195, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "21ebf66e", "transit": 0.015148401260375977}
+{"ts": 1790263540.5275846, "node": "core", "event": "placed", "job": "j33", "target": "site2"}
+{"ts": 1790263540.5447383, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "26f94d75", "transit": 0.011813640594482422}
+{"ts": 1790263540.5448036, "node": "core", "event": "placed", "job": "j34", "target": "site3"}
+{"ts": 1790263540.556716, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b7515df2", "transit": 0.006122589111328125}
+{"ts": 1790263540.5567791, "node": "core", "event": "placed", "job": "j35", "target": "mgr1"}
+{"ts": 1790263540.579112, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "30c1d09b", "transit": 0.009730339050292969}
+{"ts": 1790263540.579187, "node": "core", "event": "placed", "job": "j36", "target": "mgr2"}
+{"ts": 1790263540.5954797, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c848ecb3", "transit": 0.00719451904296875}
+{"ts": 1790263540.595558, "node": "core", "event": "placed", "job": "j37", "target": "site1"}
+{"ts": 1790263540.6230948, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6499d93b", "transit": 0.012497901916503906}
+{"ts": 1790263540.623188, "node": "core", "event": "placed", "job": "j38", "target": "site2"}
+{"ts": 1790263540.6406374, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "41e01389", "transit": 0.009855031967163086}
+{"ts": 1790263540.640741, "node": "core", "event": "placed", "job": "j39", "target": "site3"}
+{"ts": 1790263540.6565297, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6f8cb312", "transit": 0.008944272994995117}
+{"ts": 1790263540.656635, "node": "core", "event": "placed", "job": "j40", "target": "mgr1"}
+{"ts": 1790263540.668408, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "49e050d9", "transit": 0.018054962158203125}
+{"ts": 1790263540.6834056, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "5d3a87b9", "transit": 0.006943941116333008}
+{"ts": 1790263540.6834803, "node": "core", "event": "placed", "job": "j41", "target": "mgr2"}
+{"ts": 1790263540.6963499, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "b11a465f", "transit": 0.007707357406616211}
+{"ts": 1790263540.7006006, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "5b0720ba", "transit": 0.005980014801025391}
+{"ts": 1790263540.7006981, "node": "core", "event": "placed", "job": "j42", "target": "site1"}
+{"ts": 1790263540.7191942, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "5be95c0d", "transit": 0.0064809322357177734}
+{"ts": 1790263540.7192674, "node": "core", "event": "placed", "job": "j43", "target": "site2"}
+{"ts": 1790263540.733163, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "899ab3e1", "transit": 0.007674694061279297}
+{"ts": 1790263540.741614, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "1ad2aa72", "transit": 0.009120464324951172}
+{"ts": 1790263540.741785, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "9ab7a1c6", "transit": 0.009554147720336914}
+{"ts": 1790263540.7418475, "node": "core", "event": "placed", "job": "j44", "target": "site3"}
+{"ts": 1790263540.7459793, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "f8d2a9eb", "transit": 0.011185169219970703}
+{"ts": 1790263540.7567952, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a19be466", "transit": 0.0065155029296875}
+{"ts": 1790263540.7568593, "node": "core", "event": "placed", "job": "j45", "target": "mgr1"}
+{"ts": 1790263540.7741385, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "43115dbb", "transit": 0.00677490234375}
+{"ts": 1790263540.7742126, "node": "core", "event": "placed", "job": "j46", "target": "mgr2"}
+{"ts": 1790263540.7911704, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "53a0f7b0", "transit": 0.0064373016357421875}
+{"ts": 1790263540.791249, "node": "core", "event": "placed", "job": "j47", "target": "site1"}
+{"ts": 1790263540.8108587, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "315a51d7", "transit": 0.009070873260498047}
+{"ts": 1790263540.8109431, "node": "core", "event": "placed", "job": "j48", "target": "site2"}
+{"ts": 1790263540.834419, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a2522bed", "transit": 0.014766693115234375}
+{"ts": 1790263540.8345149, "node": "core", "event": "placed", "job": "j49", "target": "site3"}
+{"ts": 1790263540.8465836, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "69d9009d", "transit": 0.008162260055541992}
+{"ts": 1790263540.8466527, "node": "core", "event": "placed", "job": "j50", "target": "mgr1"}
+{"ts": 1790263540.8656516, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "2e3b63e7", "transit": 0.009745121002197266}
+{"ts": 1790263540.8657815, "node": "core", "event": "placed", "job": "j51", "target": "mgr2"}
+{"ts": 1790263540.8852081, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "add14bd6", "transit": 0.009252071380615234}
+{"ts": 1790263540.8854272, "node": "core", "event": "placed", "job": "j52", "target": "site1"}
+{"ts": 1790263540.9042544, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b728c46e", "transit": 0.010511159896850586}
+{"ts": 1790263540.9043343, "node": "core", "event": "placed", "job": "j53", "target": "site2"}
+{"ts": 1790263540.920446, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "38929d84", "transit": 0.007512092590332031}
+{"ts": 1790263540.920584, "node": "core", "event": "placed", "job": "j54", "target": "site3"}
+{"ts": 1790263540.9398546, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "61dc7cf8", "transit": 0.00907135009765625}
+{"ts": 1790263540.9399252, "node": "core", "event": "placed", "job": "j55", "target": "mgr1"}
+{"ts": 1790263540.9588075, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f2c38a16", "transit": 0.007963895797729492}
+{"ts": 1790263540.9589214, "node": "core", "event": "placed", "job": "j56", "target": "mgr2"}
+{"ts": 1790263540.974243, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "e1187644", "transit": 0.006460666656494141}
+{"ts": 1790263540.9743183, "node": "core", "event": "placed", "job": "j57", "target": "site1"}
+{"ts": 1790263540.9950082, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "82754563", "transit": 0.009219646453857422}
+{"ts": 1790263540.9950867, "node": "core", "event": "placed", "job": "j58", "target": "site2"}
+{"ts": 1790263541.0146074, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8b38de2c", "transit": 0.008430957794189453}
+{"ts": 1790263541.014716, "node": "core", "event": "placed", "job": "j59", "target": "site3"}
+{"ts": 1790263541.0317416, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "1f591d64", "transit": 0.006137371063232422}
+{"ts": 1790263541.0318112, "node": "core", "event": "placed", "job": "j60", "target": "mgr1"}
+{"ts": 1790263541.0506456, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a0082396", "transit": 0.007529258728027344}
+{"ts": 1790263541.0507152, "node": "core", "event": "placed", "job": "j61", "target": "mgr2"}
+{"ts": 1790263541.0708046, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d5b8cef7", "transit": 0.010312318801879883}
+{"ts": 1790263541.0708647, "node": "core", "event": "placed", "job": "j62", "target": "site1"}
+{"ts": 1790263541.085308, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7ba7cef4", "transit": 0.006815910339355469}
+{"ts": 1790263541.085381, "node": "core", "event": "placed", "job": "j63", "target": "site2"}
+{"ts": 1790263541.1060493, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6853fb65", "transit": 0.00858449935913086}
+{"ts": 1790263541.1061802, "node": "core", "event": "placed", "job": "j64", "target": "site3"}
+{"ts": 1790263541.1398613, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d6ff6b17", "transit": 0.006722211837768555}
+{"ts": 1790263541.1399732, "node": "core", "event": "placed", "job": "j66", "target": "mgr1"}
+{"ts": 1790263541.1613514, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b9e4df2f", "transit": 0.009309530258178711}
+{"ts": 1790263541.1614366, "node": "core", "event": "placed", "job": "j67", "target": "mgr2"}
+{"ts": 1790263541.1761575, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "a0c2fbe3", "transit": 0.008116006851196289}
+{"ts": 1790263541.1955862, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "aa76fa3f", "transit": 0.008708000183105469}
+{"ts": 1790263541.1956587, "node": "core", "event": "placed", "job": "j69", "target": "site1"}
+{"ts": 1790263541.2031024, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "93f51b9a", "transit": 0.0058972835540771484}
+{"ts": 1790263541.2132268, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b4cdf097", "transit": 0.008933067321777344}
+{"ts": 1790263541.2132971, "node": "core", "event": "placed", "job": "j70", "target": "site2"}
+{"ts": 1790263541.2309818, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "518ae03e", "transit": 0.007413625717163086}
+{"ts": 1790263541.2310512, "node": "core", "event": "placed", "job": "j71", "target": "site3"}
+{"ts": 1790263541.2417872, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "913ac2b1", "transit": 0.007310390472412109}
+{"ts": 1790263541.2465181, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "8ee13530", "transit": 0.006210803985595703}
+{"ts": 1790263541.2520165, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "adec2042", "transit": 0.006871223449707031}
+{"ts": 1790263541.2526934, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c31f6a2f", "transit": 0.011466264724731445}
+{"ts": 1790263541.252747, "node": "core", "event": "placed", "job": "j72", "target": "mgr1"}
+{"ts": 1790263541.2660928, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "56b61dc9", "transit": 0.007437705993652344}
+{"ts": 1790263541.266169, "node": "core", "event": "placed", "job": "j73", "target": "mgr2"}
+{"ts": 1790263541.2825434, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "47d55fd8", "transit": 0.0067081451416015625}
+{"ts": 1790263541.2826166, "node": "core", "event": "placed", "job": "j74", "target": "site1"}
+{"ts": 1790263541.3005588, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "4f05a5ec", "transit": 0.0073359012603759766}
+{"ts": 1790263541.3006308, "node": "core", "event": "placed", "job": "j75", "target": "site2"}
+{"ts": 1790263541.3168287, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "774c2842", "transit": 0.005735874176025391}
+{"ts": 1790263541.316894, "node": "core", "event": "placed", "job": "j76", "target": "site3"}
+{"ts": 1790263541.3385637, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6faa7d9c", "transit": 0.009597301483154297}
+{"ts": 1790263541.3386548, "node": "core", "event": "placed", "job": "j77", "target": "mgr1"}
+{"ts": 1790263541.3563607, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "dd8149b9", "transit": 0.009818077087402344}
+{"ts": 1790263541.3564322, "node": "core", "event": "placed", "job": "j78", "target": "mgr2"}
+{"ts": 1790263541.370899, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "47d538da", "transit": 0.006925821304321289}
+{"ts": 1790263541.3709726, "node": "core", "event": "placed", "job": "j79", "target": "site1"}
+{"ts": 1790263541.3880465, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "07d434f3", "transit": 0.006360530853271484}
+{"ts": 1790263541.3881104, "node": "core", "event": "placed", "job": "j80", "target": "site2"}
+{"ts": 1790263541.40755, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "be17aa17", "transit": 0.008251667022705078}
+{"ts": 1790263541.407609, "node": "core", "event": "placed", "job": "j81", "target": "site3"}
+{"ts": 1790263541.422938, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7775fb5f", "transit": 0.005849123001098633}
+{"ts": 1790263541.4230077, "node": "core", "event": "placed", "job": "j82", "target": "mgr1"}
+{"ts": 1790263541.4423246, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a7372f04", "transit": 0.008200407028198242}
+{"ts": 1790263541.442404, "node": "core", "event": "placed", "job": "j83", "target": "mgr2"}
+{"ts": 1790263541.45644, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d830bfe7", "transit": 0.005099773406982422}
+{"ts": 1790263541.4565084, "node": "core", "event": "placed", "job": "j84", "target": "site1"}
+{"ts": 1790263541.4790087, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7057b6b6", "transit": 0.009073257446289062}
+{"ts": 1790263541.4790998, "node": "core", "event": "placed", "job": "j85", "target": "site2"}
+{"ts": 1790263541.4983947, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "9c92a203", "transit": 0.010488510131835938}
+{"ts": 1790263541.498469, "node": "core", "event": "placed", "job": "j86", "target": "site3"}
+{"ts": 1790263541.5139682, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6d335c6b", "transit": 0.008730888366699219}
+{"ts": 1790263541.5140336, "node": "core", "event": "placed", "job": "j87", "target": "mgr1"}
+{"ts": 1790263541.5288913, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "1deedd9b", "transit": 0.006455183029174805}
+{"ts": 1790263541.5289636, "node": "core", "event": "placed", "job": "j88", "target": "mgr2"}
+{"ts": 1790263541.5479212, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "dc677361", "transit": 0.006753444671630859}
+{"ts": 1790263541.5479915, "node": "core", "event": "placed", "job": "j89", "target": "site1"}
+{"ts": 1790263541.5666606, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "71db960d", "transit": 0.008698463439941406}
+{"ts": 1790263541.5667334, "node": "core", "event": "placed", "job": "j90", "target": "site2"}
+{"ts": 1790263541.5818183, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "e494be96", "transit": 0.006841182708740234}
+{"ts": 1790263541.5818937, "node": "core", "event": "placed", "job": "j91", "target": "site3"}
+{"ts": 1790263541.6000924, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d7604a90", "transit": 0.008136749267578125}
+{"ts": 1790263541.6001618, "node": "core", "event": "placed", "job": "j92", "target": "mgr1"}
+{"ts": 1790263541.6200936, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "fc08f41a", "transit": 0.009908676147460938}
+{"ts": 1790263541.620161, "node": "core", "event": "placed", "job": "j93", "target": "mgr2"}
+{"ts": 1790263541.634766, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8fa97bdd", "transit": 0.0056722164154052734}
+{"ts": 1790263541.6348274, "node": "core", "event": "placed", "job": "j94", "target": "site1"}
+{"ts": 1790263541.6523414, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b8556f0a", "transit": 0.006110668182373047}
+{"ts": 1790263541.6524122, "node": "core", "event": "placed", "job": "j95", "target": "site2"}
+{"ts": 1790263541.669957, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6100e340", "transit": 0.005911588668823242}
+{"ts": 1790263541.6700392, "node": "core", "event": "placed", "job": "j96", "target": "site3"}
+{"ts": 1790263541.6851535, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "942e06b3", "transit": 0.00739288330078125}
+{"ts": 1790263541.6871884, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "4e2b7b18", "transit": 0.0060536861419677734}
+{"ts": 1790263541.6872869, "node": "core", "event": "placed", "job": "j97", "target": "mgr1"}
+{"ts": 1790263541.705361, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c931210a", "transit": 0.007092952728271484}
+{"ts": 1790263541.7054284, "node": "core", "event": "placed", "job": "j98", "target": "mgr2"}
+{"ts": 1790263541.714693, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "dd634fd1", "transit": 0.010390520095825195}
+{"ts": 1790263541.720905, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7bda85f4", "transit": 0.0049893856048583984}
+{"ts": 1790263541.7209768, "node": "core", "event": "placed", "job": "j99", "target": "site1"}
+{"ts": 1790263541.7434642, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c431cfb3", "transit": 0.010095357894897461}
+{"ts": 1790263541.7435298, "node": "core", "event": "placed", "job": "j100", "target": "site2"}
+{"ts": 1790263541.7561576, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "07b38bd6", "transit": 0.009151458740234375}
+{"ts": 1790263541.7563016, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "1f9b9172", "transit": 0.011127471923828125}
+{"ts": 1790263541.7569664, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "54953764", "transit": 0.005973339080810547}
+{"ts": 1790263541.7570145, "node": "core", "event": "placed", "job": "j101", "target": "site3"}
+{"ts": 1790263541.760663, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "48b9a0b1", "transit": 0.008277177810668945}
+{"ts": 1790263541.7774346, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "bbfbac4c", "transit": 0.008626937866210938}
+{"ts": 1790263541.7775056, "node": "core", "event": "placed", "job": "j102", "target": "mgr1"}
+{"ts": 1790263541.7911923, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "afc33852", "transit": 0.005564212799072266}
+{"ts": 1790263541.7912612, "node": "core", "event": "placed", "job": "j103", "target": "mgr2"}
+{"ts": 1790263541.8107934, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "24f51cde", "transit": 0.007996797561645508}
+{"ts": 1790263541.8108664, "node": "core", "event": "placed", "job": "j104", "target": "site1"}
+{"ts": 1790263541.8273063, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "46f0c3f0", "transit": 0.007223367691040039}
+{"ts": 1790263541.8273818, "node": "core", "event": "placed", "job": "j105", "target": "site2"}
+{"ts": 1790263541.8451076, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8ff19ae8", "transit": 0.007078647613525391}
+{"ts": 1790263541.8451786, "node": "core", "event": "placed", "job": "j106", "target": "site3"}
+{"ts": 1790263541.89847, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "770e1dfa", "transit": 0.008777141571044922}
+{"ts": 1790263541.8985324, "node": "core", "event": "placed", "job": "j109", "target": "mgr1"}
+{"ts": 1790263541.9122417, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c0df2a5a", "transit": 0.004746437072753906}
+{"ts": 1790263541.9123125, "node": "core", "event": "placed", "job": "j110", "target": "mgr2"}
+{"ts": 1790263541.933082, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "515101c1", "transit": 0.008223533630371094}
+{"ts": 1790263541.9331677, "node": "core", "event": "placed", "job": "j111", "target": "site1"}
+{"ts": 1790263541.952664, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "11c5ef55", "transit": 0.010706901550292969}
+{"ts": 1790263541.95274, "node": "core", "event": "placed", "job": "j112", "target": "site2"}
+{"ts": 1790263541.966782, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7d517737", "transit": 0.007526397705078125}
+{"ts": 1790263541.9668467, "node": "core", "event": "placed", "job": "j113", "target": "site3"}
+{"ts": 1790263541.9817142, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "95ac7e15", "transit": 0.004837989807128906}
+{"ts": 1790263541.981782, "node": "core", "event": "placed", "job": "j114", "target": "mgr1"}
+{"ts": 1790263542.0008116, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d22bfe55", "transit": 0.006615161895751953}
+{"ts": 1790263542.0009189, "node": "core", "event": "placed", "job": "j115", "target": "mgr2"}
+{"ts": 1790263542.0185404, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "ccfb76c5", "transit": 0.006314516067504883}
+{"ts": 1790263542.0186105, "node": "core", "event": "placed", "job": "j116", "target": "site1"}
+{"ts": 1790263542.0392854, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d0b2f540", "transit": 0.008973360061645508}
+{"ts": 1790263542.0393622, "node": "core", "event": "placed", "job": "j117", "target": "site2"}
+{"ts": 1790263542.053888, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "71adb944", "transit": 0.0067751407623291016}
+{"ts": 1790263542.0539625, "node": "core", "event": "placed", "job": "j118", "target": "site3"}
+{"ts": 1790263542.0905957, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c8123293", "transit": 0.007982254028320312}
+{"ts": 1790263542.0906875, "node": "core", "event": "placed", "job": "j120", "target": "mgr1"}
+{"ts": 1790263542.1063867, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "3692a9e4", "transit": 0.006606340408325195}
+{"ts": 1790263542.1064515, "node": "core", "event": "placed", "job": "j121", "target": "mgr2"}
+{"ts": 1790263542.1227267, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "7776e4ac", "transit": 0.0053615570068359375}
+{"ts": 1790263542.1228476, "node": "core", "event": "placed", "job": "j122", "target": "site1"}
+{"ts": 1790263542.142085, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "2fea4756", "transit": 0.007161378860473633}
+{"ts": 1790263542.1421618, "node": "core", "event": "placed", "job": "j123", "target": "site2"}
+{"ts": 1790263542.1620288, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f036f685", "transit": 0.009409666061401367}
+{"ts": 1790263542.1620905, "node": "core", "event": "placed", "job": "j124", "target": "site3"}
+{"ts": 1790263542.178949, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b90d5552", "transit": 0.007062673568725586}
+{"ts": 1790263542.1790218, "node": "core", "event": "placed", "job": "j125", "target": "mgr1"}
+{"ts": 1790263542.1949074, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "fdcfd145", "transit": 0.008535146713256836}
+{"ts": 1790263542.1974204, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a653c6c8", "transit": 0.007872343063354492}
+{"ts": 1790263542.1974902, "node": "core", "event": "placed", "job": "j126", "target": "mgr2"}
+{"ts": 1790263542.2152376, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "ccd26766", "transit": 0.008225202560424805}
+{"ts": 1790263542.2153127, "node": "core", "event": "placed", "job": "j127", "target": "site1"}
+{"ts": 1790263542.2262661, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "7002ce77", "transit": 0.009144306182861328}
+{"ts": 1790263542.2321188, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "1a4bdf71", "transit": 0.008000373840332031}
+{"ts": 1790263542.232225, "node": "core", "event": "placed", "job": "j128", "target": "site2"}
+{"ts": 1790263542.2625153, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "4320989f", "transit": 0.008535146713256836}
+{"ts": 1790263542.2627027, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "44f04248", "transit": 0.008264780044555664}
+{"ts": 1790263542.2685223, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "50e19b20", "transit": 0.008378744125366211}
+{"ts": 1790263542.2685935, "node": "core", "event": "placed", "job": "j130", "target": "site3"}
+{"ts": 1790263542.2719405, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "f6de5b9f", "transit": 0.00885152816772461}
+{"ts": 1790263542.2856326, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "bba71c88", "transit": 0.006913423538208008}
+{"ts": 1790263542.2857027, "node": "core", "event": "placed", "job": "j131", "target": "mgr1"}
+{"ts": 1790263542.3024733, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f0f9651a", "transit": 0.0055158138275146484}
+{"ts": 1790263542.3035533, "node": "core", "event": "placed", "job": "j132", "target": "mgr2"}
+{"ts": 1790263542.3228526, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "fb05ff0f", "transit": 0.009116172790527344}
+{"ts": 1790263542.3229263, "node": "core", "event": "placed", "job": "j133", "target": "site1"}
+{"ts": 1790263542.3529222, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "e85b424e", "transit": 0.0051801204681396484}
+{"ts": 1790263542.3529937, "node": "core", "event": "placed", "job": "j135", "target": "site2"}
+{"ts": 1790263542.370738, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "83542edf", "transit": 0.004971981048583984}
+{"ts": 1790263542.3708086, "node": "core", "event": "placed", "job": "j136", "target": "site3"}
+{"ts": 1790263542.3909264, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "6df9c86b", "transit": 0.0076792240142822266}
+{"ts": 1790263542.3909974, "node": "core", "event": "placed", "job": "j137", "target": "mgr1"}
+{"ts": 1790263542.4087462, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "aaa05a76", "transit": 0.007158994674682617}
+{"ts": 1790263542.4088185, "node": "core", "event": "placed", "job": "j138", "target": "mgr2"}
+{"ts": 1790263542.4260178, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "456987b5", "transit": 0.00766301155090332}
+{"ts": 1790263542.4260879, "node": "core", "event": "placed", "job": "j139", "target": "site1"}
+{"ts": 1790263542.4434247, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "0e344994", "transit": 0.0074083805084228516}
+{"ts": 1790263542.4434974, "node": "core", "event": "placed", "job": "j140", "target": "site2"}
+{"ts": 1790263542.462806, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8c47e9ab", "transit": 0.008928537368774414}
+{"ts": 1790263542.4628782, "node": "core", "event": "placed", "job": "j141", "target": "site3"}
+{"ts": 1790263542.480165, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c01c5c19", "transit": 0.008491039276123047}
+{"ts": 1790263542.4802387, "node": "core", "event": "placed", "job": "j142", "target": "mgr1"}
+{"ts": 1790263542.494271, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a38eeffc", "transit": 0.00545811653137207}
+{"ts": 1790263542.4943428, "node": "core", "event": "placed", "job": "j143", "target": "mgr2"}
+{"ts": 1790263542.5143025, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "47ed22a3", "transit": 0.007860422134399414}
+{"ts": 1790263542.5143735, "node": "core", "event": "placed", "job": "j144", "target": "site1"}
+{"ts": 1790263542.5293512, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "0cdb2baf", "transit": 0.005381584167480469}
+{"ts": 1790263542.5294223, "node": "core", "event": "placed", "job": "j145", "target": "site2"}
+{"ts": 1790263542.5480764, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a8c577c1", "transit": 0.007008790969848633}
+{"ts": 1790263542.548149, "node": "core", "event": "placed", "job": "j146", "target": "site3"}
+{"ts": 1790263542.565115, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "99b0dc96", "transit": 0.0061566829681396484}
+{"ts": 1790263542.565189, "node": "core", "event": "placed", "job": "j147", "target": "mgr1"}
+{"ts": 1790263542.5864372, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "3a45081a", "transit": 0.009310483932495117}
+{"ts": 1790263542.5865085, "node": "core", "event": "placed", "job": "j148", "target": "mgr2"}
+{"ts": 1790263542.6200173, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "cc95552c", "transit": 0.007332563400268555}
+{"ts": 1790263542.6200914, "node": "core", "event": "placed", "job": "j150", "target": "site1"}
+{"ts": 1790263542.6383252, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "4fc45017", "transit": 0.0072879791259765625}
+{"ts": 1790263542.6383963, "node": "core", "event": "placed", "job": "j151", "target": "site2"}
+{"ts": 1790263542.653437, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "9e5dbd4d", "transit": 0.0052547454833984375}
+{"ts": 1790263542.65351, "node": "core", "event": "placed", "job": "j152", "target": "site3"}
+{"ts": 1790263542.6909065, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8972d8d5", "transit": 0.008018016815185547}
+{"ts": 1790263542.6909816, "node": "core", "event": "placed", "job": "j154", "target": "mgr1"}
+{"ts": 1790263542.705938, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b613e680", "transit": 0.005792379379272461}
+{"ts": 1790263542.7060113, "node": "core", "event": "placed", "job": "j155", "target": "mgr2"}
+{"ts": 1790263542.7265863, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b6855c73", "transit": 0.00872349739074707}
+{"ts": 1790263542.7266588, "node": "core", "event": "placed", "job": "j156", "target": "site1"}
+{"ts": 1790263542.7364352, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "93f402ae", "transit": 0.00832509994506836}
+{"ts": 1790263542.744828, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "27fd0561", "transit": 0.007562875747680664}
+{"ts": 1790263542.7448952, "node": "core", "event": "placed", "job": "j157", "target": "site2"}
+{"ts": 1790263542.7626388, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "bf76cbbf", "transit": 0.006548166275024414}
+{"ts": 1790263542.7627125, "node": "core", "event": "placed", "job": "j158", "target": "site3"}
+{"ts": 1790263542.7672312, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "823addcb", "transit": 0.00777125358581543}
+{"ts": 1790263542.7719574, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "66d66b4d", "transit": 0.00838017463684082}
+{"ts": 1790263542.7783375, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "bb6ea196", "transit": 0.005513429641723633}
+{"ts": 1790263542.780628, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "cba0f90d", "transit": 0.00763702392578125}
+{"ts": 1790263542.7806861, "node": "core", "event": "placed", "job": "j159", "target": "mgr1"}
+{"ts": 1790263542.7995827, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "dfb7673c", "transit": 0.00865793228149414}
+{"ts": 1790263542.7997062, "node": "core", "event": "placed", "job": "j160", "target": "mgr2"}
+{"ts": 1790263542.8175197, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "302983dc", "transit": 0.008541107177734375}
+{"ts": 1790263542.8175874, "node": "core", "event": "placed", "job": "j161", "target": "site1"}
+{"ts": 1790263542.8368835, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "34d97e1b", "transit": 0.009455204010009766}
+{"ts": 1790263542.8369558, "node": "core", "event": "placed", "job": "j162", "target": "site2"}
+{"ts": 1790263542.852313, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f3003dfc", "transit": 0.00803828239440918}
+{"ts": 1790263542.8523843, "node": "core", "event": "placed", "job": "j163", "target": "site3"}
+{"ts": 1790263542.8679047, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "cac21a9a", "transit": 0.0059926509857177734}
+{"ts": 1790263542.8679776, "node": "core", "event": "placed", "job": "j164", "target": "mgr1"}
+{"ts": 1790263542.8870578, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b83a381e", "transit": 0.007856130599975586}
+{"ts": 1790263542.8871293, "node": "core", "event": "placed", "job": "j165", "target": "mgr2"}
+{"ts": 1790263542.9025419, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a87c1572", "transit": 0.006429910659790039}
+{"ts": 1790263542.9026039, "node": "core", "event": "placed", "job": "j166", "target": "site1"}
+{"ts": 1790263542.919939, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "8c8ffae8", "transit": 0.006932497024536133}
+{"ts": 1790263542.9200122, "node": "core", "event": "placed", "job": "j167", "target": "site2"}
+{"ts": 1790263542.9361315, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "941554b4", "transit": 0.005998134613037109}
+{"ts": 1790263542.9361985, "node": "core", "event": "placed", "job": "j168", "target": "site3"}
+{"ts": 1790263542.9541183, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "69c6fa3f", "transit": 0.006062746047973633}
+{"ts": 1790263542.9541922, "node": "core", "event": "placed", "job": "j169", "target": "mgr1"}
+{"ts": 1790263542.973154, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "51f873e2", "transit": 0.0072174072265625}
+{"ts": 1790263542.9732268, "node": "core", "event": "placed", "job": "j170", "target": "mgr2"}
+{"ts": 1790263543.0104, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "67deb3ff", "transit": 0.008231163024902344}
+{"ts": 1790263543.0104716, "node": "core", "event": "placed", "job": "j172", "target": "site1"}
+{"ts": 1790263543.0289662, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "219765d3", "transit": 0.009166717529296875}
+{"ts": 1790263543.0290632, "node": "core", "event": "placed", "job": "j173", "target": "site2"}
+{"ts": 1790263543.0475838, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a921a3f4", "transit": 0.00789189338684082}
+{"ts": 1790263543.0476716, "node": "core", "event": "placed", "job": "j174", "target": "site3"}
+{"ts": 1790263543.064258, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "633e97c4", "transit": 0.006490230560302734}
+{"ts": 1790263543.0644066, "node": "core", "event": "placed", "job": "j175", "target": "mgr1"}
+{"ts": 1790263543.0820603, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "1fb81abe", "transit": 0.006900787353515625}
+{"ts": 1790263543.0821362, "node": "core", "event": "placed", "job": "j176", "target": "mgr2"}
+{"ts": 1790263543.103205, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "1400e93d", "transit": 0.010005950927734375}
+{"ts": 1790263543.1032782, "node": "core", "event": "placed", "job": "j177", "target": "site1"}
+{"ts": 1790263543.120799, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "47bff5d1", "transit": 0.009465217590332031}
+{"ts": 1790263543.12087, "node": "core", "event": "placed", "job": "j178", "target": "site2"}
+{"ts": 1790263543.1392999, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "d3775707", "transit": 0.00995635986328125}
+{"ts": 1790263543.1393948, "node": "core", "event": "placed", "job": "j179", "target": "site3"}
+{"ts": 1790263543.155353, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "59eca785", "transit": 0.005621194839477539}
+{"ts": 1790263543.1554272, "node": "core", "event": "placed", "job": "j180", "target": "mgr1"}
+{"ts": 1790263543.1753383, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "96a73771", "transit": 0.008198976516723633}
+{"ts": 1790263543.1754522, "node": "core", "event": "placed", "job": "j181", "target": "mgr2"}
+{"ts": 1790263543.1917834, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f124f956", "transit": 0.0072481632232666016}
+{"ts": 1790263543.1919332, "node": "core", "event": "placed", "job": "j182", "target": "site1"}
+{"ts": 1790263543.2096179, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "2c94179f", "transit": 0.012967824935913086}
+{"ts": 1790263543.2208767, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c3b76922", "transit": 0.0195465087890625}
+{"ts": 1790263543.2209482, "node": "core", "event": "placed", "job": "j183", "target": "site2"}
+{"ts": 1790263543.2262096, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "cb2c805b", "transit": 0.006820201873779297}
+{"ts": 1790263543.2262866, "node": "core", "event": "placed", "job": "j184", "target": "site3"}
+{"ts": 1790263543.2458775, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "0e6a5542", "transit": 0.007563114166259766}
+{"ts": 1790263543.2484648, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "32ec4acc", "transit": 0.009826898574829102}
+{"ts": 1790263543.248543, "node": "core", "event": "placed", "job": "j185", "target": "mgr1"}
+{"ts": 1790263543.2650743, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "b8a36765", "transit": 0.008994102478027344}
+{"ts": 1790263543.265151, "node": "core", "event": "placed", "job": "j186", "target": "mgr2"}
+{"ts": 1790263543.2764318, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "1a32d9c9", "transit": 0.008578062057495117}
+{"ts": 1790263543.278427, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "1381f9ad", "transit": 0.00618743896484375}
+{"ts": 1790263543.2824073, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "13aac7bd", "transit": 0.006936550140380859}
+{"ts": 1790263543.2824671, "node": "core", "event": "placed", "job": "j187", "target": "site1"}
+{"ts": 1790263543.287796, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "0c107002", "transit": 0.008677482604980469}
+{"ts": 1790263543.3007634, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a9996be5", "transit": 0.0077702999114990234}
+{"ts": 1790263543.3008735, "node": "core", "event": "placed", "job": "j188", "target": "site2"}
+{"ts": 1790263543.3181598, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "48e051a3", "transit": 0.0074689388275146484}
+{"ts": 1790263543.318233, "node": "core", "event": "placed", "job": "j189", "target": "site3"}
+{"ts": 1790263543.3354402, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "1ff6a6d0", "transit": 0.007441043853759766}
+{"ts": 1790263543.3355145, "node": "core", "event": "placed", "job": "j190", "target": "mgr1"}
+{"ts": 1790263543.3562727, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "e7746b3f", "transit": 0.010335445404052734}
+{"ts": 1790263543.356407, "node": "core", "event": "placed", "job": "j191", "target": "mgr2"}
+{"ts": 1790263543.3733912, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "9d34afce", "transit": 0.009174346923828125}
+{"ts": 1790263543.373465, "node": "core", "event": "placed", "job": "j192", "target": "site1"}
+{"ts": 1790263543.3900325, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "696dac02", "transit": 0.008310079574584961}
+{"ts": 1790263543.3901072, "node": "core", "event": "placed", "job": "j193", "target": "site2"}
+{"ts": 1790263543.405376, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "f8e8768b", "transit": 0.005934238433837891}
+{"ts": 1790263543.4054525, "node": "core", "event": "placed", "job": "j194", "target": "site3"}
+{"ts": 1790263543.4236667, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "e39464af", "transit": 0.0063936710357666016}
+{"ts": 1790263543.4237838, "node": "core", "event": "placed", "job": "j195", "target": "mgr1"}
+{"ts": 1790263543.4448884, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "a1f9af9d", "transit": 0.009638786315917969}
+{"ts": 1790263543.4449673, "node": "core", "event": "placed", "job": "j196", "target": "mgr2"}
+{"ts": 1790263543.461385, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "97f7df6f", "transit": 0.005967617034912109}
+{"ts": 1790263543.4615014, "node": "core", "event": "placed", "job": "j197", "target": "site1"}
+{"ts": 1790263543.4816768, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "678ce60d", "transit": 0.008358955383300781}
+{"ts": 1790263543.4817717, "node": "core", "event": "placed", "job": "j198", "target": "site2"}
+{"ts": 1790263543.4998918, "node": "core", "event": "recv", "type": "SPAWN_REQUEST", "src": "client", "id": "c4bbef07", "transit": 0.00767207145690918}
+{"ts": 1790263543.5000448, "node": "core", "event": "placed", "job": "j199", "target": "site3"}
+{"ts": 1790263543.7183573, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "a4186021", "transit": 0.008341789245605469}
+{"ts": 1790263543.7555563, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "8453926d", "transit": 0.009528875350952148}
+{"ts": 1790263543.7839193, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "4efef2f4", "transit": 0.0064847469329833984}
+{"ts": 1790263543.789929, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "ba75f73c", "transit": 0.01130986213684082}
+{"ts": 1790263543.7934382, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "8e9967fb", "transit": 0.004839181900024414}
+{"ts": 1790263544.228664, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "75f0516d", "transit": 0.01007080078125}
+{"ts": 1790263544.2616036, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "f5dcdcfc", "transit": 0.006956815719604492}
+{"ts": 1790263544.2915804, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "f74d661f", "transit": 0.008473873138427734}
+{"ts": 1790263544.3000188, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "6fb7985c", "transit": 0.009320974349975586}
+{"ts": 1790263544.3025239, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "14d32ba3", "transit": 0.008930206298828125}
+{"ts": 1790263544.7351408, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "37d657dd", "transit": 0.00962519645690918}
+{"ts": 1790263544.7690532, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "cbdbd581", "transit": 0.0063626766204833984}
+{"ts": 1790263544.800167, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "140ca02e", "transit": 0.008486747741699219}
+{"ts": 1790263544.812196, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "c2f23004", "transit": 0.009806632995605469}
+{"ts": 1790263544.8123298, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "d689adf7", "transit": 0.009596109390258789}
+{"ts": 1790263545.2432306, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "bf3b7d22", "transit": 0.007021427154541016}
+{"ts": 1790263545.2756066, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "89b7ac21", "transit": 0.006405353546142578}
+{"ts": 1790263545.3078268, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "a157f3d7", "transit": 0.006429195404052734}
+{"ts": 1790263545.3186116, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "e69b09f9", "transit": 0.006762504577636719}
+{"ts": 1790263545.3206723, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "07da1871", "transit": 0.00962972640991211}
+{"ts": 1790263545.7700374, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "f2b2d814", "transit": 0.02065443992614746}
+{"ts": 1790263545.7851086, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "bbbba0e4", "transit": 0.008600234985351562}
+{"ts": 1790263545.8260484, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "2ac8f9bd", "transit": 0.0071887969970703125}
+{"ts": 1790263545.831648, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "83545fe1", "transit": 0.010528326034545898}
+{"ts": 1790263546.2809157, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "845d4a16", "transit": 0.010409116744995117}
+{"ts": 1790263546.2929325, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "57f382b7", "transit": 0.00808262825012207}
+{"ts": 1790263546.319337, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "2f9a05a6", "transit": 0.007454633712768555}
+{"ts": 1790263546.3361497, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "e7d5ea62", "transit": 0.010114669799804688}
+{"ts": 1790263546.3386116, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "5d20717f", "transit": 0.007631778717041016}
+{"ts": 1790263546.7923925, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "bb046aa1", "transit": 0.010524511337280273}
+{"ts": 1790263546.8086622, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "77abedc6", "transit": 0.011135578155517578}
+{"ts": 1790263546.8296096, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "ce48aae1", "transit": 0.009122848510742188}
+{"ts": 1790263546.8578727, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "75ea3369", "transit": 0.020162343978881836}
+{"ts": 1790263546.8589401, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "20a87ceb", "transit": 0.019034147262573242}
+{"ts": 1790263547.3178804, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "c15f8fb3", "transit": 0.012777328491210938}
+{"ts": 1790263547.3511312, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "b6368543", "transit": 0.0197906494140625}
+{"ts": 1790263547.3718863, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "7cb1baa2", "transit": 0.012999773025512695}
+{"ts": 1790263547.38284, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "c9efce1f", "transit": 0.012053489685058594}
+{"ts": 1790263547.801898, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "d8fade01", "transit": 0.009624719619750977}
+{"ts": 1790263547.8620126, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "9160f957", "transit": 0.00812983512878418}
+{"ts": 1790263547.876159, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "9b24bf96", "transit": 0.005427837371826172}
+{"ts": 1790263547.8904428, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "1b83f47e", "transit": 0.008887529373168945}
+{"ts": 1790263548.3077428, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "68c5ccbe", "transit": 0.005076169967651367}
+{"ts": 1790263548.329154, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "f47e9d76", "transit": 0.010123252868652344}
+{"ts": 1790263548.3694472, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "76b72c83", "transit": 0.0074307918548583984}
+{"ts": 1790263548.3839946, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "ef3a1418", "transit": 0.008052587509155273}
+{"ts": 1790263548.3961189, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "31abeff2", "transit": 0.006963253021240234}
+{"ts": 1790263548.8121562, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "9c40ba19", "transit": 0.0050466060638427734}
+{"ts": 1790263548.8368618, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "a1fde290", "transit": 0.008542299270629883}
+{"ts": 1790263548.8746877, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "d76a1603", "transit": 0.00538182258605957}
+{"ts": 1790263548.9042635, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "516cf8f4", "transit": 0.008136987686157227}
+{"ts": 1790263549.3208303, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "4e2851cb", "transit": 0.009047269821166992}
+{"ts": 1790263549.3492508, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "3ec17c2e", "transit": 0.011351585388183594}
+{"ts": 1790263549.3830934, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "ce0c7eeb", "transit": 0.007502555847167969}
+{"ts": 1790263549.396104, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "33000d0b", "transit": 0.009729623794555664}
+{"ts": 1790263549.4123561, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "9bacbe2b", "transit": 0.006678104400634766}
+{"ts": 1790263549.826057, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "16f5d64e", "transit": 0.006342411041259766}
+{"ts": 1790263549.8521204, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "d5af8151", "transit": 0.005238056182861328}
+{"ts": 1790263549.89175, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "1bfa0f21", "transit": 0.008737564086914062}
+{"ts": 1790263549.9041955, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "4fbbf8ac", "transit": 0.0075228214263916016}
+{"ts": 1790263549.9186292, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "da29b53e", "transit": 0.005951881408691406}
+{"ts": 1790263550.3322506, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "69b7e7fb", "transit": 0.006168842315673828}
+{"ts": 1790263550.3574548, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "c6786e52", "transit": 0.00596165657043457}
+{"ts": 1790263550.4007163, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "7f18505f", "transit": 0.008498668670654297}
+{"ts": 1790263550.41526, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "9263cd42", "transit": 0.0077228546142578125}
+{"ts": 1790263550.4264052, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "a114cb6f", "transit": 0.007851600646972656}
+{"ts": 1790263550.838673, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "3d0edf2f", "transit": 0.006374359130859375}
+{"ts": 1790263550.8863885, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "aa2e9396", "transit": 0.017066001892089844}
+{"ts": 1790263550.9113965, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "9c3c5572", "transit": 0.009849309921264648}
+{"ts": 1790263550.920662, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "c838f83e", "transit": 0.005768775939941406}
+{"ts": 1790263550.9350028, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "81d5fcbc", "transit": 0.008444786071777344}
+{"ts": 1790263551.3448114, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "52bde8f2", "transit": 0.005290985107421875}
+{"ts": 1790263551.397687, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "bcb6ddf6", "transit": 0.01015615463256836}
+{"ts": 1790263551.4207582, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "9ebe6644", "transit": 0.009561777114868164}
+{"ts": 1790263551.4298851, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "c55103cc", "transit": 0.008141279220581055}
+{"ts": 1790263551.4411047, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "5a3bc22e", "transit": 0.005457639694213867}
+{"ts": 1790263551.856116, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "e25b190a", "transit": 0.009101152420043945}
+{"ts": 1790263551.9093819, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "fef128cd", "transit": 0.008739948272705078}
+{"ts": 1790263551.9310756, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "f1584f75", "transit": 0.008721351623535156}
+{"ts": 1790263551.9360895, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "af22f737", "transit": 0.006798982620239258}
+{"ts": 1790263551.9521291, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "c91c30a8", "transit": 0.009445428848266602}
+{"ts": 1790263552.3639135, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "919e5b7c", "transit": 0.007884740829467773}
+{"ts": 1790263552.4191983, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "6798148a", "transit": 0.009490013122558594}
+{"ts": 1790263552.4411643, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "ee4d1eb5", "transit": 0.007086277008056641}
+{"ts": 1790263552.450128, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "2ec416bf", "transit": 0.010459184646606445}
+{"ts": 1790263552.4617617, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "6b1c4aa2", "transit": 0.009692668914794922}
+{"ts": 1790263552.8688364, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "0be3bb7d", "transit": 0.006157875061035156}
+{"ts": 1790263552.9266744, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "a7ec256c", "transit": 0.0063359737396240234}
+{"ts": 1790263552.9493372, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "9798311c", "transit": 0.006512165069580078}
+{"ts": 1790263552.957071, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "e4756c68", "transit": 0.006683826446533203}
+{"ts": 1790263552.96891, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "c7e65abc", "transit": 0.008671998977661133}
+{"ts": 1790263553.3756347, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site2", "id": "ecf586a3", "transit": 0.0061511993408203125}
+{"ts": 1790263553.435346, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site1", "id": "8f3a78a5", "transit": 0.008162736892700195}
+{"ts": 1790263553.4551845, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr1", "id": "7457448d", "transit": 0.005258798599243164}
+{"ts": 1790263553.4632044, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "site3", "id": "817d5ddd", "transit": 0.006065845489501953}
+{"ts": 1790263553.4749212, "node": "core", "event": "recv", "type": "RESOURCE_UPDATE", "src": "mgr2", "id": "81d13fbd", "transit": 0.00595402717590332}
+{"ts": 1790263553.5520513, "node": "core", "event": "recv", "type": "STATS", "src": "client", "id": "4ad17b70", "transit": 0.0011990070343017578}
+{"ts": 1790263553.5692794, "node": "core", "event": "recv", "type": "SHUTDOWN", "src": "client", "id": "8b70739f", "transit": 0.0021212100982666016}
+{"ts": 1790263553.5693376, "node": "core", "event": "shutdown"}
