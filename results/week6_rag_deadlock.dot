@@ -1,0 +1,11 @@
+digraph "deadlock" {
+  rankdir=LR;
+  "crew" [shape=box];
+  "fuel_truck" [shape=box];
+  "t3-0" [shape=circle color=red penwidth=2];
+  "t3-1" [shape=circle color=red penwidth=2];
+  "fuel_truck" -> "t3-1" [style=solid label="assigned"];
+  "t3-0" -> "fuel_truck" [style=dashed label="request"];
+  "crew" -> "t3-0" [style=solid label="assigned"];
+  "t3-1" -> "crew" [style=dashed label="request"];
+}
