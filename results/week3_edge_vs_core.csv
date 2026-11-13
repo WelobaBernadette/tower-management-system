@@ -1,0 +1,5 @@
+tier,link_delay_ms,opens,sensing_hop_ms,escalation_hop_ms,total_detect_ms,core_inbound_msgs,core_inbound_per_s
+edge,5,12,17.07,17.11,34.18,23,1.53
+core,5,11,16.5,,16.5,142,9.47
+edge,40,6,52.78,51.89,104.67,11,0.73
+core,40,5,51.43,,51.43,128,8.53

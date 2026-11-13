@@ -5,14 +5,16 @@
   "placement": "round_robin",
   "sensor_interval": 1.0,
   "log_dir": "logs",
+  "archive_interval": 2.0,
   "link": {"delay_ms": 5, "jitter_ms": 2, "loss": 0.0},
   "nodes": [
-    {"name": "core",   "role": "core",    "port": 9000, "cpu": 100, "mem": 512},
-    {"name": "mgr1",   "role": "manager", "port": 9101, "cpu": 100, "mem": 512},
-    {"name": "mgr2",   "role": "manager", "port": 9102, "cpu": 100, "mem": 512},
-    {"name": "site1",  "role": "site",    "port": 9201, "cpu": 100, "mem": 512, "manager": "mgr1"},
-    {"name": "site2",  "role": "site",    "port": 9202, "cpu": 100, "mem": 512, "manager": "mgr1"},
-    {"name": "site3",  "role": "site",    "port": 9203, "cpu": 100, "mem": 512, "manager": "mgr2"},
-    {"name": "client", "role": "client",  "port": 9900, "cpu": 100, "mem": 512}
+    {"name": "cloud",  "role": "cloud",   "port": 9001, "cpu": 100, "mem": 512, "tier": "cloud"},
+    {"name": "core",   "role": "core",    "port": 9000, "cpu": 100, "mem": 512, "tier": "core"},
+    {"name": "mgr1",   "role": "manager", "port": 9101, "cpu": 100, "mem": 512, "tier": "core"},
+    {"name": "mgr2",   "role": "manager", "port": 9102, "cpu": 100, "mem": 512, "tier": "core"},
+    {"name": "site1",  "role": "site",    "port": 9201, "cpu": 100, "mem": 512, "tier": "edge", "manager": "mgr1"},
+    {"name": "site2",  "role": "site",    "port": 9202, "cpu": 100, "mem": 512, "tier": "edge", "manager": "mgr1"},
+    {"name": "site3",  "role": "site",    "port": 9203, "cpu": 100, "mem": 512, "tier": "edge", "manager": "mgr2"},
+    {"name": "client", "role": "client",  "port": 9900, "cpu": 100, "mem": 512, "tier": "client"}
   ]
 }

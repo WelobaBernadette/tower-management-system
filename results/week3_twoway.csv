@@ -1,0 +1,14 @@
+policy_seq,pushed_at_s,latency_ms,watchlist
+1,0.0,20.6,
+2,1.04,23.7,site1
+3,3.09,29.5,site1
+4,3.61,11.7,site1
+5,6.17,24.6,site1 site3
+6,7.19,10.0,site1 site3
+7,7.71,174.2,site1 site2 site3
+8,8.4,9.9,site1 site2 site3
+9,10.93,14.9,site1 site2 site3
+10,12.48,28.3,site1 site2 site3
+11,13.0,191.9,site1 site2 site3
+12,16.69,29.8,site1 site2 site3
+13,17.21,13.1,site1 site2 site3

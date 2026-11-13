@@ -1,4 +1,5 @@
-"""Message format shared by every node: sender, receiver, type, timestamp, payload."""
+"""Message format shared by every node: sender, receiver, type, timestamp, payload,
+and a Lamport logical-clock value (lc) used to order events across nodes."""
 import json
 import time
 import uuid
@@ -13,6 +14,7 @@ class Message:
     payload: dict = field(default_factory=dict)
     ts: float = field(default_factory=time.time)
     id: str = field(default_factory=lambda: uuid.uuid4().hex[:8])
+    lc: int = 0   # Lamport logical clock of the sender at send time
 
     def encode(self) -> bytes:
         return (json.dumps(asdict(self)) + "\n").encode()

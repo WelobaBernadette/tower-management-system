@@ -1,0 +1,5 @@
+n_sites,n_managers,total_nodes,jobs,completed,throughput_jobs_s,latency_mean_ms,latency_p95_ms,coord_msgs_total,coord_msgs_per_node,open_incidents_core
+3,2,8,150,150,28.03,163.9,223.4,72,9.0,1
+6,2,11,150,150,25.22,245.5,402.8,123,11.18,0
+6,4,13,150,150,16.74,1319.8,1711.2,216,16.62,0
+9,4,16,150,150,11.29,4268.0,5501.7,414,25.88,0

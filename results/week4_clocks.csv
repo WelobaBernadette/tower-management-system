@@ -1,0 +1,16 @@
+manager,site,mgr_wall_s,core_wall_s,mgr_lc,core_lc,wall_order_ok,lamport_order_ok
+mgr1,site2,0.0,-0.764,11,72,False,True
+mgr1,site1,0.029,-0.757,17,73,False,True
+mgr1,site1,1.361,0.595,51,89,False,True
+mgr2,site3,1.573,2.386,86,111,True,True
+mgr1,site1,2.166,1.377,84,99,False,True
+mgr2,site3,6.885,7.702,171,251,True,True
+mgr1,site1,6.968,6.186,214,216,False,True
+mgr2,site3,8.514,9.347,200,294,True,True
+mgr1,site1,10.16,9.372,301,303,False,True
+mgr2,site3,13.051,13.862,270,420,True,True
+mgr2,site3,14.178,14.989,290,449,True,True
+mgr1,site2,15.948,15.167,458,460,False,True
+mgr1,site2,17.324,16.58,495,497,False,True
+mgr1,site1,19.243,18.458,550,552,False,True
+mgr1,site1,20.195,19.459,570,572,False,True

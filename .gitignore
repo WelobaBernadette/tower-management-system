@@ -1,5 +1,7 @@
-﻿__pycache__/
+logs/
+__pycache__/
 *.pyc
 .venv/
-config/_tmp.json
-nohup.out
+config/_*tmp.json
+*.bak_*
+*_output.txt

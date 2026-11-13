@@ -42,3 +42,21 @@ Runs 3 placement policies x 3 request rates, writes results/week2_results.csv
 - Each node models a single CPU (one job slice at a time).
 - All nodes run on one machine, so network conditions come from the emulated link, not a real network.
 - Nodes know each other's addresses from config.json (static naming). Real naming comes in Week 10.
+
+---
+# Milestones 5 and 6 (added)
+
+New files
+    services/transactions.py        M5  2PC and 3PC, write-ahead logs, locks, cooperative termination, live fault injection
+    services/concurrency.py         M6  distributed locks, global deadlock detection by the elected leader, prevention
+    experiments/week5_transactions.py   M5  failure-free cost + coordinator/participant failures (real crashes)
+    experiments/week6_deadlock.py       M6  race condition, deadlock strategies, detection-interval sweep
+    docs/RUN_GUIDE.md               step-by-step: install, run, collect results, push to GitHub
+Changed files (small)
+    nodes/node.py                   creates self.tx and self.concurrency, routes TX_* and lock messages, adds their stats to STATS
+
+Run
+    python3 -m experiments.week5_transactions --demo     # ~1 min narrated
+    python3 -m experiments.week5_transactions            # full, writes results/week5_*.csv
+    python3 -m experiments.week6_deadlock --demo         # ~1 min narrated
+    python3 -m experiments.week6_deadlock                # full, writes results/week6_*.csv
